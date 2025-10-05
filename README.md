@@ -1,6 +1,6 @@
 ### Introduction: 
 - Deployment Link: https://speedgpt-gen-ai-cerebras-jd.vercel.app/
-- Video Link: 
+- Video Link: https://drive.google.com/file/d/1mcUH2Q4lshIFwD9rYP17JofO7T10GcMB/view?usp=drivesdk
 
 A small web app that:
 - Sends the same prompt to Cerebras and to a baseline LLM (e.g., a Hugging Face endpoint running Llama)
