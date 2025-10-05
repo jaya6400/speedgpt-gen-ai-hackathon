@@ -8,5 +8,20 @@ A small web app that:
 - Produces a simple CSV/JSON results file you can show in the demo
 - Tech stack used: Python, React+vite, Cerebras Api, Hugging face Api 
 
+### Run Locally: 
+```
+git clone https://github.com/jaya6400/speedgpt-gen-ai-hackathon.git
+cd speedgpt-gen-ai-hackathon/frontend
+npm install
+npm run dev
+
+Shift to new terminal:
+cd speedgpt-gen-ai-hackathon/backend 
+uvicorn app:app --reload --port 8000
+```
+
+Frontend running on port: http://localhost:5173/
+Backend running on port: http://127.0.0.1:8000
+
 ### Screenshot
 - <Image width="1408" height="934" alt="image" src="https://github.com/user-attachments/assets/52728d4d-729c-4ea3-8d60-cdd95d0ee803" />
